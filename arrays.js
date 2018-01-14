@@ -17,3 +17,13 @@ function destructivelyAddElementToBeginningOfArray(originalArray, element){
 }
 
 destructivelyAddElementToBeginningOfArray('foo', 1)
+
+function addElementToEndOfArray(originalArray, element){
+  var newArray = [...originalArray, element];
+    return newArray;
+}
+
+destructivelyAddElementToEndOfArray(originalArray, element){
+  originalArray.push(element);
+    return originalArray
+}
