@@ -9,8 +9,10 @@ function addElementToBeginningOfArray(originalArray, element){
 
 addElementToBeginningOfArray([1], 'f', 'o', 'o')
 
+
+
 function destructivelyAddElementToBeginningOfArray(originalArray, element){
-   originalArray = originalArray.unshift(element);
+   var originalArray = originalArray.unshift(element);
       return originalArray;
 }
 
